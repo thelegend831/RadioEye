@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="657047969" file="/Users/liuxiaoyang/Documents/Paul_A_Bottomley/AblationSensor/Interview/Integration/RadioEye/RadioEye.prj" location="/Users/liuxiaoyang/Documents/Paul_A_Bottomley/AblationSensor/Interview/Integration/RadioEye" name="RadioEye" target="target.mlapps" target-name="Package App">
+    <param.appname>RadioEye</param.appname>
+    <param.authnamewatermark>Xiaoyang Liu</param.authnamewatermark>
+    <param.email>xliu68@jhu.edu</param.email>
+    <param.company>Johns Hopkins University</param.company>
+    <param.icon>${PROJECT_ROOT}/RadioEye_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/RadioEye_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/RadioEye_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/RadioEye_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>User interface for cardiac ablation</param.summary>
+    <param.description>A user interface for device data calibration, classification algorithm development with emulation and real-time monitored ablation for cardiac arrhythmia treatment.</param.description>
+    <param.screenshot>${PROJECT_ROOT}/RadioEye_resources/icon_48.png</param.screenshot>
+    <param.version>0.8</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>5426a498-03ce-4966-8ba7-2ed637c5faf5</param.guid>
+    <unset>
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/RadioEye.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/liuxiaoyang/Documents/Paul_A_Bottomley/AblationSensor/Interview/Integration" name="RadioEye" optional="false">/Users/liuxiaoyang/Documents/Paul_A_Bottomley/AblationSensor/Interview/Integration/RadioEye</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2020a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.15.5</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
